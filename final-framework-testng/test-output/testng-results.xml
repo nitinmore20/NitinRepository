@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37489" started-at="2020-04-08T13:39:36Z" finished-at="2020-04-08T13:40:13Z">
+  <suite name="Default suite" duration-ms="29686" started-at="2020-04-09T04:41:30Z" finished-at="2020-04-09T04:41:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37489" started-at="2020-04-08T13:39:36Z" finished-at="2020-04-08T13:40:13Z">
+    <test name="Default test" duration-ms="29686" started-at="2020-04-09T04:41:30Z" finished-at="2020-04-09T04:41:59Z">
       <class name="com.training.sanity.tests.TC33CheckoutWithLogin">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.TC33CheckoutWithLogin@8bd1b6a]" name="setUpBeforeClass" is-config="true" duration-ms="5" started-at="2020-04-08T19:09:36Z" finished-at="2020-04-08T19:09:36Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.TC33CheckoutWithLogin@8bd1b6a]" name="setUpBeforeClass" is-config="true" duration-ms="10" started-at="2020-04-09T10:11:30Z" finished-at="2020-04-09T10:11:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.TC33CheckoutWithLogin@8bd1b6a]" name="setUp" is-config="true" duration-ms="14724" started-at="2020-04-08T19:09:36Z" finished-at="2020-04-08T19:09:51Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.TC33CheckoutWithLogin@8bd1b6a]" name="setUp" is-config="true" duration-ms="12674" started-at="2020-04-09T10:11:30Z" finished-at="2020-04-09T10:11:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="journeyToOrder()[pri:0, instance:com.training.sanity.tests.TC33CheckoutWithLogin@8bd1b6a]" name="journeyToOrder" duration-ms="21728" started-at="2020-04-08T19:09:51Z" finished-at="2020-04-08T19:10:12Z">
+        <test-method status="PASS" signature="journeyToOrder()[pri:0, instance:com.training.sanity.tests.TC33CheckoutWithLogin@8bd1b6a]" name="journeyToOrder" duration-ms="15972" started-at="2020-04-09T10:11:42Z" finished-at="2020-04-09T10:11:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- journeyToOrder -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.TC33CheckoutWithLogin@8bd1b6a]" name="tearDown" is-config="true" duration-ms="1005" started-at="2020-04-08T19:10:12Z" finished-at="2020-04-08T19:10:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.TC33CheckoutWithLogin@8bd1b6a]" name="tearDown" is-config="true" duration-ms="1001" started-at="2020-04-09T10:11:58Z" finished-at="2020-04-09T10:11:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
