@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29686" started-at="2020-04-09T04:41:30Z" finished-at="2020-04-09T04:41:59Z">
+  <suite name="Suite" duration-ms="83442" started-at="2020-04-15T05:02:10Z" finished-at="2020-04-15T05:03:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29686" started-at="2020-04-09T04:41:30Z" finished-at="2020-04-09T04:41:59Z">
-      <class name="com.training.sanity.tests.TC33CheckoutWithLogin">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.TC33CheckoutWithLogin@8bd1b6a]" name="setUpBeforeClass" is-config="true" duration-ms="10" started-at="2020-04-09T10:11:30Z" finished-at="2020-04-09T10:11:30Z">
+    <test name="Test" duration-ms="83442" started-at="2020-04-15T05:02:10Z" finished-at="2020-04-15T05:03:33Z">
+      <class name="com.training.sanity.tests.TC62MultipleRegistration">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.sanity.tests.TC62MultipleRegistration@1d057a39]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2020-04-15T10:32:10Z" finished-at="2020-04-15T10:32:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.TC33CheckoutWithLogin@8bd1b6a]" name="setUp" is-config="true" duration-ms="12674" started-at="2020-04-09T10:11:30Z" finished-at="2020-04-09T10:11:42Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.sanity.tests.TC62MultipleRegistration@1d057a39]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2020-04-15T10:32:10Z" finished-at="2020-04-15T10:32:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="journeyToOrder()[pri:0, instance:com.training.sanity.tests.TC33CheckoutWithLogin@8bd1b6a]" name="journeyToOrder" duration-ms="15972" started-at="2020-04-09T10:11:42Z" finished-at="2020-04-09T10:11:58Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethodsTwo()[pri:0, instance:com.training.sanity.tests.TC62MultipleRegistration@1d057a39]" name="testMethodsTwo" duration-ms="83398" started-at="2020-04-15T10:32:10Z" finished-at="2020-04-15T10:33:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- journeyToOrder -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.TC33CheckoutWithLogin@8bd1b6a]" name="tearDown" is-config="true" duration-ms="1001" started-at="2020-04-09T10:11:58Z" finished-at="2020-04-09T10:11:59Z">
+        </test-method> <!-- testMethodsTwo -->
+        <test-method status="PASS" signature="testMethodsOne()[pri:0, instance:com.training.sanity.tests.TC62MultipleRegistration@1d057a39]" name="testMethodsOne" duration-ms="41037" started-at="2020-04-15T10:32:10Z" finished-at="2020-04-15T10:32:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.TC33CheckoutWithLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testMethodsOne -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.TC62MultipleRegistration@1d057a39]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-15T10:32:51Z" finished-at="2020-04-15T10:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.TC62MultipleRegistration@1d057a39]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-15T10:33:33Z" finished-at="2020-04-15T10:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.training.sanity.tests.TC62MultipleRegistration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
